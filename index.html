@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>campusdiaries</title>
+		<meta charset="utf-8"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+		<style type="text/css">
+		/*.navbar {
+	    padding-top: 15px;
+	    padding-bottom: 15px;
+	    border: 0;
+	    border-radius: 0;
+	    margin-bottom: 0;
+	    height: 60px;
+	    margin: -10px 0px 15px !important;
+	    font-size: 12px;
+	    letter-spacing: 5px;
+		}*/
+		#imgdiv{
+			/*padding-top: 10px;*/
+		}
+		.sidebar{
+			padding-left: 50px;
+			float:right; width:300px; margin-top:60px; margin-right:0px;
+		}
+		h3{
+			text-align: center;
+		}
+		#random-image{
+			max-width:500px; height:300px; top:50%; left:50%;  position:absolute; margin-left:-250px; margin-top:-150px;
+
+		}
+		</style>
+		
+	</head>
+
+	<body>
+		<nav  id="header" class="navbar navbar-default navbar-fixed-top">
+			<div class="navbar-inner">
+				<div class="container">
+					<div class="navbar-header">
+						<div id="imgdiv">
+							<a class="navbar-brand" href="#" style="background:black;">
+								<img src="img/logo.png">
+							</a>
+						</div>
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+			        <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+          	</button>
+					</div>
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						<ul class="nav navbar-nav navbar-right " >
+ 						 <li class="active"><a href="#">HOME</a></li>
+  					 <li><a href="#">ABOUT</a></li>
+  					 <li><a href="#">SERVICES</a></li>
+  					 <li><a href="#">CONTACT</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</nav>
+				<div class="content_section" style="min-height:1000px;">
+					<div class="img-wrapper" >
+						<img id="random-image" src="" >
+
+					
+					</div>
+					<div class="sidebar" >
+						<h3>THIS IS SIDEBAR </h3>
+						<p id="corus" style="text-align:center;">nawab pagal hai</p>
+					</div>
+				</div>
+				<nav class="navbar navbar-default navbar-fixed-bottom">
+					<h3> COMMUNICATION SKILLS LAB </h3>
+				</nav>
+				<div id="footer" style="height:120px; background-color:yellow">
+					<h3>This is a footer </h3>
+				</div>
+
+		<script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+		<script src="js/script.js"></script>
+
+	</body>
+</html>
